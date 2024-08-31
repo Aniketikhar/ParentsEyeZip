@@ -1,0 +1,35 @@
+.individualNav {
+    /* background-color: #000000; */
+    padding: 5px;
+    margin-top: 10px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+    background-color: transparent;
+  }
+  
+  .carNumber {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .carInfo {
+    display: flex;
+    gap: 10px; /* Add some gap between buttons */
+    flex-wrap: wrap; /* Allow buttons to wrap if necessary */
+  }
+  
+  .carInfo-btns {
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 1rem;
+    border: 2px solid #000000;
+    outline: none;
+    background-color: #fff;
+    border-radius: 6px;
+    transition: 0.2s;
+  }
+  

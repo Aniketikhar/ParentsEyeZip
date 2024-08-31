@@ -1,0 +1,87 @@
+.login-fix{
+display: flex;
+flex-direction:row;
+}
+.yellow-back{
+    background-color: #def01a;
+    height: 100vh;
+    width: 40vw;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.logo-login img{
+    width:250px;
+    height: 85px;
+}
+.white-back{
+    /* background-color: pink; */
+    width: 55vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.login-heading{
+    text-align: center;
+    margin: 30px 0;
+    font-weight: bolder;
+}
+.nedd-sign{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.nedd-sign div a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.button-col button{
+    background-color: #def01a;
+width: 90px;
+height:40px;
+font-size: 20px;
+color: black;
+border: none;
+}
+.setinput input{
+height: 60px;
+}
+.login-form{
+    border: 1px solid black;
+    border-radius: 18px;
+     padding: 30px 26px;
+     background-color: white;
+     width:30vw;
+     height:'min-content';
+}
+@media(max-width:700px){
+    .yellow-back{
+        height: 40vh;
+        width: 100vw;
+        position: relative;
+    }
+    .login-fix{
+        flex-direction:column;
+        }
+        .login-form{
+           width:90vw;
+             height:70vh;
+             top: 32%;
+             position: absolute;
+        }
+        .white-back{
+            /* background-color: pink; */
+            width: 100vw;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+}
+/* .login-form{
+  
+    /* background-color: #def01a; */
+

@@ -1,0 +1,39 @@
+.indiviudalInfo{
+    background-color: transparent;
+    padding: 10px;
+}
+.Infocontainer{
+    /* height: 60px; */
+    padding: 0;
+}
+
+.gridDiv{
+    width: 320px;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    width: 15%;
+    font-size: 2.2rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    text-align: start;
+    color:"#363434";
+}
+p{
+    padding: 0;
+}
+.infoHead{
+    font-size: 0.9rem;
+    
+}
+.infoData{
+    font-size: 0.7rem;
+    margin: 0 !important;
+}
+.css-1sir9cm-MuiPaper-root {
+    line-height: 0.2 !important;
+}

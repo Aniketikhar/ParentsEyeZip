@@ -1,0 +1,164 @@
+.containerPlay {
+  width: 100%;
+  background-color: transparent;
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  overflow-x: hidden;
+  align-items: center;
+  height: 8rem;
+  flex-direction: column;
+  gap: 27px;
+  /* margin-top: 15px; */
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+hr {
+  width: 100%;
+}
+.playbar-container {
+  /* background-color: #ffffff; */
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* padding: 30px 20px 5px 20px; */
+  gap: 1.2rem;
+  border-radius: 51px;
+  /* background-color: #f4e4c1; */
+  padding: 10px 13px;
+}
+
+.playbar-break {
+  display: block;
+  width: 100%;
+}
+
+input[type="range"] {
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: block;
+  width: 80%;
+  height: 5px;
+  background-color: #fff !important;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  height: 8px;
+}
+
+input[type="range"]::-moz-track {
+  -moz-appearance: none;
+  height: 8px;
+}
+
+input[type="range"]::-ms-track {
+  appearance: none;
+  height: 8px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 5px;
+  background-color: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin-top: -6px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 8px;
+}
+
+input[type="range"]::-ms-thumb {
+  -webkit-appearance: none;
+  height: 8px;
+}
+
+input[type="range"]:active::-webkit-slider-thumb {
+  background-color: #ffffff;
+  border: 3px solid #000000;
+}
+
+.playBar-btn {
+  border-radius: 50%;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BtnIcon {
+  width: 1rem;
+  height: 1.5rem;
+  font-size: 1rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.playBarInfo {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px; /* Allow wrapping to handle line breaks */
+}
+
+.dataInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.head {
+  font-size: 1rem;
+  font-weight: 400;
+  color: "#fff";
+}
+
+.headData {
+  padding: 2px;
+  background-color: #b2aeae;
+  /* margin-top: 12px; */
+  border-radius: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #221818;
+  font-size: 0.8rem;
+}
+
+.cutHistory {
+  /* margin-left: 1rem; */
+  margin-top: 5px;
+  /* margin-right: 100px; */
+  align-self: right;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 6px;
+  border: none;
+  background-color: #f4d24a;
+  color: #000000;
+  font-size: 0.975rem;
+  width:6rem;
+}
+
+.progress-percentage {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+#progress-bar {
+  background-color: #fff !important;
+}
